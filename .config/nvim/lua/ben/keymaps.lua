@@ -4,7 +4,7 @@ local keymap = vim.keymap -- for conciseness
 
 
 keymap.set("n", "<leader>q", "<:bd<CR>", { desc = "Quit once" })
-keymap.set("n", "<leader>Q", "<:qa<CR>", { desc = "Quit all" })
+keymap.set("n", "<leader>Q", "<:qa!<CR>", { desc = "Quit all" })
 keymap.set("n", "<leader>e", "<:Lex<CR>", { desc = "Open explorer in V split" })
 
 keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "Clear search highlights" })
