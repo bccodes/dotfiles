@@ -3,9 +3,10 @@ vim.g.mapleader = " "
 local keymap = vim.keymap -- for conciseness
 
 
-keymap.set("n", "<leader>q", "<:bd<CR>", { desc = "Quit once" })
-keymap.set("n", "<leader>Q", "<:qa!<CR>", { desc = "Quit all" })
-keymap.set("n", "<leader>e", "<:Lex<CR>", { desc = "Open explorer in V split" })
+keymap.set("n", "<leader>q", "<cmd>bd<CR>", { desc = "Quit once" })
+keymap.set("n", "<leader>Q", "<cmd>qa!<CR>", { desc = "Quit all" })
+keymap.set("n", "<leader>e", "<cmd>Lex<CR>", { desc = "Open explorer in V split" })
+keymap.set("n", "<C - s>", "<cmd>w<CR>", { desc = "Save current buffer" })
 
 keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "Clear search highlights" })
 
