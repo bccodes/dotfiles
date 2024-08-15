@@ -2,8 +2,11 @@ local opt = vim.opt
 
 -- line numbers
 opt.number = true
+opt.rnu = true
 opt.cursorline = true
 opt.cursorlineopt = "number"
+
+opt. colorcolumn = "80"
 
 -- tabs & indentation
 opt.tabstop = 4
