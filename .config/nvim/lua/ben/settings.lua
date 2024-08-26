@@ -6,6 +6,8 @@ opt.rnu = true
 opt.cursorline = true
 opt.cursorlineopt = "number"
 
+opt. colorcolumn = "80"
+
 -- tabs & indentation
 opt.tabstop = 4
 opt.shiftwidth = 4
