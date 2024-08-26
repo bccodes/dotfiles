@@ -2,6 +2,7 @@ local opt = vim.opt
 
 -- line numbers
 opt.number = true
+opt.rnu = true
 opt.cursorline = true
 opt.cursorlineopt = "number"
 
