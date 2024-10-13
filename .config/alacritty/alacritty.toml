@@ -1,5 +1,8 @@
 live_config_reload = true
 
+[env]
+term = "xterm-256color"
+
 [window]
 dynamic_padding = false
 opacity = 0.94
@@ -22,6 +25,11 @@ style = "Medium"
 
 [cursor]
 style = {shape = 'Beam'}
+
+[keyboard]
+bindings = [
+{ key = "NumpadEnter", mods = "None", action = "ReceiveChar" },
+]
 
 [colors]
 cursor = {text = '#ffffff', cursor = '#FF66E5'}
