@@ -30,7 +30,7 @@ return {
 		      "html",
 		      "cssls",
 		      "lua_ls",
-			  "elm-language-server",
+			  "elmls",
       },
     })
 
