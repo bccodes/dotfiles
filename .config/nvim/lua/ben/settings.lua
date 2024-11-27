@@ -27,7 +27,7 @@ opt.clipboard:append("unnamedplus")
 opt.undofile = true
 
 -- Minimal number of screen lines to keep above and below the cursor
-opt.scrolloff = 10
+opt.scrolloff = 5
 
 -- Netrw
 vim.g.netrw_winsize = 28
